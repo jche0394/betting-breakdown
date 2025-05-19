@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/betting-breakdown/static/css/main.f5517fcd.css",
+    "main.js": "/betting-breakdown/static/js/main.3b1b6f07.js",
+    "static/js/453.7df46ce1.chunk.js": "/betting-breakdown/static/js/453.7df46ce1.chunk.js",
+    "index.html": "/betting-breakdown/index.html",
+    "main.f5517fcd.css.map": "/betting-breakdown/static/css/main.f5517fcd.css.map",
+    "main.3b1b6f07.js.map": "/betting-breakdown/static/js/main.3b1b6f07.js.map",
+    "453.7df46ce1.chunk.js.map": "/betting-breakdown/static/js/453.7df46ce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5517fcd.css",
+    "static/js/main.3b1b6f07.js"
+  ]
+}
