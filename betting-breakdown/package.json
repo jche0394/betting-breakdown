@@ -2,6 +2,7 @@
   "name": "betting-breakdown",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jche0394.github.io/betting-breakdown",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -17,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",    // <-- THIS LINE
+    "deploy": "gh-pages -d build"  // <-- THIS LINE
   },
   "eslintConfig": {
     "extends": [
