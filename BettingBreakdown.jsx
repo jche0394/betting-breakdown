@@ -1,10 +1,10 @@
 import React, { useState, useMemo, useEffect } from "react";
 import { calcBreakdown } from "./utils/bettingCalculations.js"; // Point to utils and include .js
 
-import InputForm from "./components/InputForm.jsx"; // Point to components and include .jsx
-import ResultsSummary from "./components/ResultsSummary.jsx";
-import ProfitChart from "./components/ProfitChart.jsx";
-import DataTable from "./components/DataTable.jsx";
+import InputForm from "./InputForm.jsx"; // Import local components
+import ResultsSummary from "./ResultsSummary.jsx";
+import ProfitChart from "./ProfitChart.jsx";
+import DataTable from "./DataTable.jsx";
 
 export default function BettingBreakdown() {
   const [inputs, setInputs] = useState({
